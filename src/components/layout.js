@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 
 import { rhythm, scale } from "../utils/typography"
 
+import "./layout.css"
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -34,7 +36,7 @@ class Layout extends React.Component {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
+            fontFamily: `Rubik, sans-serif`,
             marginTop: 0,
           }}
         >
@@ -65,7 +67,8 @@ class Layout extends React.Component {
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a>.
+          Colours by <a href="https://draculatheme.com/">Dracula</a>.
         </footer>
       </div>
     )
