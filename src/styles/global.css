@@ -1,0 +1,37 @@
+* {
+  font-family: "Fira Sans", sans-serif;
+  color: #f8f8f2;
+}
+
+body {
+  background-color: #44475a;
+  color: #f8f8f2;
+}
+
+a {
+  color: #bd93f9;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ffb86c;
+  font-family: "Fira Sans", sans-serif;
+}
+
+blockquote {
+  border-left: 0.32813rem solid #bd93f9;
+}
+
+hr {
+  background-color: #bd93f9;
+}
+
+.gatsby-highlight {
+  width: 100%;
+  margin-bottom: 1.75rem;
+  border-radius: 5px;
+}
