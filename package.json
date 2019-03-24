@@ -32,7 +32,9 @@
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.19",
     "typeface-fira-sans": "0.0.54",
+    "typeface-lato": "0.0.54",
     "typeface-merriweather": "0.0.72",
+    "typeface-roboto": "0.0.54",
     "typeface-rubik": "0.0.72",
     "typography": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"

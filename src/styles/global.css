@@ -1,6 +1,6 @@
 * {
-  font-family: "Fira Sans", sans-serif;
   color: #f8f8f2;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
 
 a {
   color: #bd93f9;
+  font-family: inherit;
 }
 
 h1,
@@ -18,8 +19,10 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: "Roboto", serif;
+  font-weight: 700;
   color: #ffb86c;
-  font-family: "Fira Sans", sans-serif;
+  letter-spacing: 1px;
 }
 
 blockquote {

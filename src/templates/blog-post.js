@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import TimeToRead from "../components/TimeToRead"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
@@ -28,6 +29,8 @@ class BlogPostTemplate extends React.Component {
           }}
         >
           {post.frontmatter.date}
+          <br />
+          <TimeToRead time={post.timeToRead} />
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
@@ -85,6 +88,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
       }
+      timeToRead
     }
   }
 `

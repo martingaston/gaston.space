@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
+import TimeToRead from "../components/TimeToRead"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
@@ -32,7 +33,9 @@ class BlogIndex extends React.Component {
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <small>
+                {node.frontmatter.date} / <TimeToRead time={node.timeToRead} />
+              </small>
               <p
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
@@ -67,6 +70,7 @@ export const pageQuery = graphql`
             title
             description
           }
+          timeToRead
         }
       }
     }
