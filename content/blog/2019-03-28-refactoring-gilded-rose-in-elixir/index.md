@@ -1,6 +1,7 @@
 ---
 title: Refactoring Gilded Rose in Elixir
 date: "2019-03-28T10:53:24.030Z"
+description: Working through the messy, tangled bedroom of code that is The Gilded Rose.
 ---
 
 Firstly, it's named after stuff from Warcraft. I knew I recognised Sulfuras from somewhere. Ragnaros! [My original favourite Hearthstone legendary card](https://hearthstone.gamepedia.com/Ragnaros_the_Firelord). That was putting low-level pressure on my brain for hours.
