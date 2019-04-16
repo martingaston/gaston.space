@@ -25,6 +25,7 @@ class Connect4
 
   def update_board_state
     # updates our board state
+  end
 
   def display_board_in_stdout
     # displays our state in the terminal/stdout
@@ -68,6 +69,7 @@ class Connect4
 
   def update_board_state
     # updates our board state
+  end
 
   def display_board_in_stdout
     # displays our state in the terminal/stdout
