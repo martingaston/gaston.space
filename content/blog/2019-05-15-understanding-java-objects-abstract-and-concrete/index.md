@@ -132,7 +132,7 @@ public interface List<E> {
     //... there's plenty more empty methods
 ```
 
-Neither `size()` not `isEmpty()` are implemented in this interface. We couldn't create a `List` object from this interface with the `new` keyword, which is why it's not a concrete class. But, by implementing `List`, `ArrayList` pledges to follow the contract and ensure it knows how to respond when sent requests for any of the interface method signatures.
+Neither `size()` nor `isEmpty()` are implemented in this interface. We couldn't create a `List` object from this interface with the `new` keyword, which is why it's not a concrete class. But, by implementing `List`, `ArrayList` pledges to follow the contract and ensure it knows how to respond when sent requests for any of the interface method signatures.
 
 Interfaces are like a little bow tie for some of your classes - they add a neat degree of formality, which the type checker respects. You can use interface names as the type for your reference variables, too, which means any class implementing that interface will be allowed to be assigned to it.
 
