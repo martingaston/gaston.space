@@ -176,9 +176,3 @@ If `ArrayList` did not implement its own `get` method while extending `AbstractL
 We've taken a look at what makes a concrete and abstract class in Java, which meant familiarising ourself with how classes are instantiated. We moved from a simple example `Dragon` class to looking at some slices of source code from JDK 12, taking a look at how `ArrayList` extends `AbstractList` and implements `ArrayList`.
 
 Understanding these building blocks creates a massively useful foundation for getting to grips with the strict object-oriented nature some of Java's most prominent design patterns.
-
-***
-
-Has this post been useful for you? I'd really appreciate any comments and feedback on whether there's anything that could be made clearer or explained better. I'd also massively appreciate any corrections.
-
-If you enjoyed reading this then I would love it if you could give this article a few claps, or if you could share it with friends ❤️
